@@ -1,0 +1,50 @@
+{
+  "op": "assemble",
+  "params": {
+    "sources": [
+      {
+        "id": "s1",
+        "path": "C:\\docs\\input file.pdf"
+      }
+    ],
+    "pages": [
+      {
+        "kind": "pdf",
+        "sourceId": "s1",
+        "pageIndex": 0,
+        "rotation": 90
+      },
+      {
+        "kind": "image",
+        "sourceId": "s1",
+        "rotation": 0
+      },
+      {
+        "kind": "blank",
+        "rotation": 270
+      }
+    ],
+    "options": {
+      "pageSizing": "preserve",
+      "fitSize": "A4",
+      "blankSize": "Letter",
+      "imageFit": "contain",
+      "pageNumbers": {
+        "position": "bottom-center",
+        "start": 1,
+        "fontSize": 11,
+        "color": "#112233",
+        "format": "n_of_total"
+      },
+      "metadata": {
+        "mode": "edit",
+        "title": "T"
+      },
+      "keepAttachments": false
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

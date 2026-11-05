@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept A: anvil built from a stack of sheets</title>
+  <path fill="#000" d="M12 44 H216 L244 72 V92 H88 A84 84 0 0 1 12 44 Z"/>
+  <rect fill="#000" x="96" y="104" width="104" height="20"/>
+  <rect fill="#000" x="96" y="136" width="104" height="20"/>
+  <path fill="#000" d="M77.4 168 H218.6 L244 212 H52 Z"/>
+</svg>

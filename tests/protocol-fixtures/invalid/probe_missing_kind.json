@@ -1,0 +1,9 @@
+{
+  "op": "probe",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "op": "pdf_to_images",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "pages": [
+      0
+    ],
+    "format": "jpg",
+    "dpi": 150,
+    "jpegQuality": 80,
+    "baseName": "x",
+    "folder": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

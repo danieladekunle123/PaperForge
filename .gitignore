@@ -1,0 +1,29 @@
+node_modules/
+out/
+dist/
+release/
+test-results/
+playwright-report/
+*.log
+*.tsbuildinfo
+
+# Copied from node_modules at build time
+src/renderer/public/pdfjs/
+
+# Python worker
+worker/.venv/
+worker/build/
+worker/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Local and OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/

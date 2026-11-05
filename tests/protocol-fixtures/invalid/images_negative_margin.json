@@ -1,0 +1,24 @@
+{
+  "op": "images_to_pdf",
+  "params": {
+    "sources": [
+      {
+        "id": "s1",
+        "path": "C:\\docs\\input file.pdf"
+      }
+    ],
+    "images": [
+      "s1"
+    ],
+    "layout": {
+      "pageSize": "A4",
+      "orientation": "auto",
+      "marginPt": -3,
+      "fit": "contain"
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

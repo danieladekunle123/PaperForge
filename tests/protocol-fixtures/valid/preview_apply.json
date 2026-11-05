@@ -1,0 +1,18 @@
+{
+  "op": "preview_apply",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "pageNumbers": {
+      "position": "bottom-center",
+      "start": 1,
+      "fontSize": 11,
+      "color": "#112233",
+      "format": "n_of_total"
+    },
+    "previewIndex": 0,
+    "maxSize": 600
+  }
+}

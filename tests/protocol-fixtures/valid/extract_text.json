@@ -1,0 +1,13 @@
+{
+  "op": "extract_text",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "pages": [
+      0,
+      1
+    ]
+  }
+}

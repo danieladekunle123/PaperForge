@@ -1,0 +1,22 @@
+{
+  "op": "apply",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "watermark": {
+      "text": "x",
+      "fontSize": 10,
+      "color": "#000000",
+      "opacity": 0,
+      "rotation": 0,
+      "position": "center",
+      "layer": "foreground"
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

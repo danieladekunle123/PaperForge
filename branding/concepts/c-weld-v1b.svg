@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept C v1b: two sheets as separate brackets around a page-shaped gap</title>
+  <path fill="#000" d="M44 10 H164 V66 H104 V166 H44 Z"/>
+  <path fill="#000" d="M176 78 H184 L212 106 V246 H92 V190 H164 V78 Z"/>
+</svg>

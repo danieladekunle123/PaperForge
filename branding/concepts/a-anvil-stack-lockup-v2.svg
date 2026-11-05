@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 256" width="1000" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept A: anvil built from a stack of sheets, horizontal lockup with placeholder live text</title>
+  <g id="symbol" transform="translate(24 28) scale(.78)">
+    <path fill="#000" fill-rule="evenodd" d="M12 40 H208 L244 76 V92 H88 A84 84 0 0 1 12 40 Z"/>
+    <path fill="#000" fill-rule="evenodd" d="M92 106 H204 V126 H92 Z"/>
+    <path fill="#000" fill-rule="evenodd" d="M92 140 H204 V160 H92 Z"/>
+    <path fill="#000" fill-rule="evenodd" d="M78 174 H218 L242 216 H54 Z"/>
+  </g>
+  <!-- PLACEHOLDER: live text for exploration only; must be replaced by outlined licensed lettering -->
+  <text id="wordmark" x="248" y="170" font-family="Segoe UI, sans-serif" font-weight="600" font-size="124" letter-spacing="-2" fill="#000">PaperForge</text>
+</svg>

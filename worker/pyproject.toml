@@ -1,0 +1,25 @@
+[project]
+name = "paperforge-worker"
+version = "1.0.0"
+description = "PDF processing worker for PaperForge"
+requires-python = ">=3.11"
+license = "AGPL-3.0-or-later"
+dependencies = ["PyMuPDF==2.1", "Pillow==13.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "ruff==0.17.3", "pyinstaller==6.22.3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I"]
+ignore = ["E501", "B904", "B905"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["paperforge_worker", "conftest"]

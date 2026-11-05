@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 256" width="1000" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept C: two sheets interlocked around a page-shaped space, horizontal lockup with placeholder live text</title>
+  <g id="symbol" transform="translate(24 28) scale(.78)">
+    <path fill="#000" fill-rule="evenodd" d="M42 16 H109 L153 60 H86 V196 L42 152 Z"/>
+    <path fill="#000" fill-rule="evenodd" d="M214 240 H147 L103 196 H170 V60 L214 104 Z"/>
+  </g>
+  <!-- PLACEHOLDER: live text for exploration only; must be replaced by outlined licensed lettering -->
+  <text id="wordmark" x="248" y="170" font-family="Segoe UI, sans-serif" font-weight="600" font-size="124" letter-spacing="-2" fill="#000">PaperForge</text>
+</svg>

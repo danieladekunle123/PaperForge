@@ -1,0 +1,14 @@
+{
+  "op": "unprotect",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf",
+      "password": "p"
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

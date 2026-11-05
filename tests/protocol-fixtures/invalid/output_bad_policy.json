@@ -1,0 +1,10 @@
+{
+  "op": "save_text",
+  "params": {
+    "text": "x",
+    "output": {
+      "path": "a",
+      "overwrite": "maybe"
+    }
+  }
+}

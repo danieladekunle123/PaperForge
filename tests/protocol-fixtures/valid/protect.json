@@ -1,0 +1,24 @@
+{
+  "op": "protect",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "userPassword": "a",
+    "ownerPassword": "b",
+    "permissions": {
+      "print": true,
+      "printHighQuality": false,
+      "modify": false,
+      "copy": false,
+      "annotate": false,
+      "fillForms": true,
+      "assemble": false
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

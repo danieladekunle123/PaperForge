@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept A: anvil built from a stack of sheets</title>
+  <path fill="#000" fill-rule="evenodd" d="M12 40 H208 L244 76 V92 H88 A84 84 0 0 1 12 40 Z"/>
+  <path fill="#000" fill-rule="evenodd" d="M92 106 H204 V126 H92 Z"/>
+  <path fill="#000" fill-rule="evenodd" d="M92 140 H204 V160 H92 Z"/>
+  <path fill="#000" fill-rule="evenodd" d="M78 174 H218 L242 216 H54 Z"/>
+</svg>

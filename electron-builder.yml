@@ -1,0 +1,38 @@
+appId: com.paperforge.desktop
+productName: PaperForge
+copyright: Copyright © 2026 PaperForge contributors. Licensed under AGPL-3.0-or-later.
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - '!**/*.map'
+  - '!**/node_modules/**/*'
+asar: true
+# The worker is a real executable, so it lives outside the asar archive.
+extraResources:
+  - from: worker/dist/paperforge-worker
+    to: worker
+    filter: ['**/*']
+  - from: LICENSE
+    to: LICENSE.txt
+  - from: THIRD_PARTY_NOTICES.md
+    to: THIRD_PARTY_NOTICES.md
+electronLanguages: [en-US, en-GB]
+win:
+  icon: build/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  artifactName: PaperForge-Setup-${version}.${ext}
+  shortcutName: PaperForge
+portable:
+  artifactName: PaperForge-Portable-${version}.${ext}

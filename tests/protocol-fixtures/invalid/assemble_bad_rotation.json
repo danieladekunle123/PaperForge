@@ -1,0 +1,29 @@
+{
+  "op": "assemble",
+  "params": {
+    "sources": [
+      {
+        "id": "s1",
+        "path": "C:\\docs\\input file.pdf"
+      }
+    ],
+    "pages": [
+      {
+        "kind": "pdf",
+        "sourceId": "s1",
+        "pageIndex": 0,
+        "rotation": 45
+      }
+    ],
+    "options": {
+      "pageSizing": "preserve",
+      "fitSize": "A4",
+      "blankSize": "Letter",
+      "imageFit": "contain"
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

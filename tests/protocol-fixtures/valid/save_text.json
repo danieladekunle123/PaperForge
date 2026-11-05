@@ -1,0 +1,10 @@
+{
+  "op": "save_text",
+  "params": {
+    "text": "héllo",
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

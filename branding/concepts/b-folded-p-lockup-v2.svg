@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 256" width="1000" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge concept B: letter P cut from a dog-eared A-series sheet, horizontal lockup with placeholder live text</title>
+  <g id="symbol" transform="translate(24 28) scale(.78)">
+    <path fill="#000" fill-rule="evenodd" d="M54 24 H134 L202 92 V150 H106 V232 H54 Z M106 56 V106 H156 Z"/>
+  </g>
+  <!-- PLACEHOLDER: live text for exploration only; must be replaced by outlined licensed lettering -->
+  <text id="wordmark" x="248" y="170" font-family="Segoe UI, sans-serif" font-weight="600" font-size="124" letter-spacing="-2" fill="#000">PaperForge</text>
+</svg>

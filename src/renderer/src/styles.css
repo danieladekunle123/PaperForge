@@ -1,0 +1,171 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --color-app: var(--pf-app);
+  --color-surface: var(--pf-surface);
+  --color-raised: var(--pf-raised);
+  --color-hover: var(--pf-hover);
+  --color-line: var(--pf-line);
+  --color-line-strong: var(--pf-line-strong);
+  --color-fg: var(--pf-fg);
+  --color-muted: var(--pf-muted);
+  --color-subtle: var(--pf-subtle);
+  --color-accent: var(--pf-accent);
+  --color-accent-hover: var(--pf-accent-hover);
+  --color-accent-fg: var(--pf-accent-fg);
+  --color-accent-soft: var(--pf-accent-soft);
+  --color-danger: var(--pf-danger);
+  --color-danger-soft: var(--pf-danger-soft);
+  --color-warn: var(--pf-warn);
+  --color-warn-soft: var(--pf-warn-soft);
+  --color-ok: var(--pf-ok);
+  --color-ok-soft: var(--pf-ok-soft);
+  --color-sheet: var(--pf-sheet);
+  --font-sans: 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Cascadia Mono', Consolas, ui-monospace, monospace;
+}
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --pf-app: #0f1114;
+  --pf-surface: #15181c;
+  --pf-raised: #1c2025;
+  --pf-hover: #252a30;
+  --pf-line: #272c33;
+  --pf-line-strong: #3a4149;
+  --pf-fg: #e8eaed;
+  --pf-muted: #a2a9b3;
+  --pf-subtle: #79808b;
+  --pf-accent: #e39a4d;
+  --pf-accent-hover: #efae69;
+  --pf-accent-fg: #1b1206;
+  --pf-accent-soft: rgb(227 154 77 / 0.14);
+  --pf-danger: #f0706a;
+  --pf-danger-soft: rgb(240 112 106 / 0.13);
+  --pf-warn: #e6c155;
+  --pf-warn-soft: rgb(230 193 85 / 0.12);
+  --pf-ok: #5cc592;
+  --pf-ok-soft: rgb(92 197 146 / 0.12);
+  --pf-sheet: #ffffff;
+  --pf-logo-sheet: #f5f2ec;
+  --pf-logo-page: #e39a4d;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --pf-app: #ebeae6;
+  --pf-surface: #f6f5f2;
+  --pf-raised: #ffffff;
+  --pf-hover: #e6e5e0;
+  --pf-line: #d9d7d0;
+  --pf-line-strong: #bdbbb3;
+  --pf-fg: #1d1f22;
+  --pf-muted: #565b62;
+  --pf-subtle: #72777e;
+  --pf-accent: #b35f14;
+  --pf-accent-hover: #994f0e;
+  --pf-accent-fg: #ffffff;
+  --pf-accent-soft: rgb(179 95 20 / 0.11);
+  --pf-danger: #c5362f;
+  --pf-danger-soft: rgb(197 54 47 / 0.09);
+  --pf-warn: #8a6500;
+  --pf-warn-soft: rgb(138 101 0 / 0.1);
+  --pf-ok: #1d7a4e;
+  --pf-ok-soft: rgb(29 122 78 / 0.1);
+  --pf-sheet: #ffffff;
+  --pf-logo-sheet: #15181c;
+  --pf-logo-page: #e39a4d;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--pf-app);
+  color: var(--pf-fg);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+input,
+textarea,
+.selectable {
+  user-select: text;
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--pf-accent);
+  outline-offset: 1px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--pf-line-strong) transparent;
+}
+
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* The white "paper" background keeps transparent pages legible in both themes. */
+.checker {
+  background-color: var(--pf-sheet);
+}
+
+.spin {
+  animation: pf-spin 0.9s linear infinite;
+}
+
+@keyframes pf-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.indeterminate {
+  position: relative;
+  overflow: hidden;
+}
+
+.indeterminate::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 35%;
+  background: var(--pf-accent);
+  border-radius: inherit;
+  animation: pf-slide 1.15s ease-in-out infinite;
+}
+
+@keyframes pf-slide {
+  from {
+    transform: translateX(-110%);
+  }
+  to {
+    transform: translateX(320%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spin,
+  .indeterminate::after {
+    animation-duration: 3s;
+  }
+}

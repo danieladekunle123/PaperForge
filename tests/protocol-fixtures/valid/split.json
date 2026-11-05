@@ -1,0 +1,22 @@
+{
+  "op": "split",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "groups": [
+      {
+        "name": "a.pdf",
+        "pages": [
+          0,
+          1
+        ]
+      }
+    ],
+    "folder": {
+      "path": "C:\\out",
+      "overwrite": "rename"
+    }
+  }
+}

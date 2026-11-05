@@ -1,0 +1,76 @@
+{
+  "op": "apply",
+  "params": {
+    "source": {
+      "id": "s1",
+      "path": "C:\\docs\\input file.pdf"
+    },
+    "imageSources": [
+      {
+        "id": "sig",
+        "path": "C:\\sig.png"
+      }
+    ],
+    "pageNumbers": {
+      "position": "bottom-center",
+      "start": 1,
+      "fontSize": 11,
+      "color": "#112233",
+      "format": "n_of_total",
+      "pages": [
+        0,
+        2
+      ],
+      "marginPt": 30
+    },
+    "watermark": {
+      "text": "DRAFT",
+      "fontSize": 48,
+      "color": "#ff0000",
+      "opacity": 0.3,
+      "rotation": 45,
+      "position": "center",
+      "layer": "background",
+      "pages": [
+        1
+      ]
+    },
+    "overlays": [
+      {
+        "kind": "image",
+        "pageIndex": 0,
+        "x": 0.1,
+        "y": 0.1,
+        "w": 0.2,
+        "h": 0.1,
+        "imageSourceId": "sig",
+        "knockoutWhite": true
+      },
+      {
+        "kind": "image",
+        "pageIndex": 0,
+        "x": 0.1,
+        "y": 0.1,
+        "w": 0.2,
+        "h": 0.1,
+        "pngBase64": "iVBORw0KGgo="
+      },
+      {
+        "kind": "text",
+        "pageIndex": 1,
+        "x": 0.5,
+        "y": 0.5,
+        "text": "Hello",
+        "fontSize": 12,
+        "color": "#000000"
+      }
+    ],
+    "metadata": {
+      "mode": "strip"
+    },
+    "output": {
+      "path": "C:\\docs\\out.pdf",
+      "overwrite": "error"
+    }
+  }
+}

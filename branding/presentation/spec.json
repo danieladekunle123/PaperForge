@@ -1,0 +1,42 @@
+{
+  "brand": "PaperForge",
+  "tagline": "Local PDF toolkit",
+  "brief": "A desktop PDF toolkit for Windows whose standout feature is Document Assembly: drop in PDFs and images, pick pages from any of them, and export one new document. Everything stays on your computer. It should feel fast, clear and trustworthy, like a well-made tool.",
+  "adjectives": ["fast", "clear", "trustworthy", "local", "well-made"],
+  "criteria": "Success: distinct from red PDF badges and plain dog-eared pages, clear on a 24 px Windows taskbar, works in one colour, and fits the app's dark interface and amber accent.",
+  "industry": "software",
+  "mockups": ["app-icon", "readme", "website", "favicon-tab", "social", "sticker"],
+  "nav": ["Features", "Download", "GitHub"],
+  "brand_color": "#E39A4D",
+  "tile_color": "#15181C",
+  "greyscale": false,
+  "final": true,
+  "deck_title": "logo presentation",
+  "label": "Final design",
+  "concepts": [
+    {
+      "name": "The Weld",
+      "symbol": "../logo/symbol/paperforge-symbol-color.svg",
+      "lockup": "../logo/horizontal/paperforge-horizontal-color.svg",
+      "stacked": "../logo/stacked/paperforge-stacked-color.svg",
+      "avatar": "../icons/source/app-icon.svg",
+      "symbol_on_tile": "../logo/symbol/paperforge-symbol-on-dark.svg",
+      "stacked_on_tile": "../logo/stacked/paperforge-stacked-on-dark.svg",
+      "symbol_on_dark": "../logo/symbol/paperforge-symbol-on-dark.svg",
+      "lockup_on_dark": "../logo/horizontal/paperforge-horizontal-on-dark.svg",
+      "stacked_on_dark": "../logo/stacked/paperforge-stacked-on-dark.svg",
+      "idea": "Two sheets interlock around a new page, the hot spot where they fuse: Document Assembly as forge-welding.",
+      "rationale": [
+        "Draws the product's standout feature instead of a generic document",
+        "Two identical sheets, rotated 180 degrees, give it a steady, engineered balance",
+        "Amber is already the app's accent colour, and here it means heat",
+        "Three drawings keep it sharp at 16 px, at 24 px and at full size"
+      ]
+    }
+  ],
+  "next_steps": [
+    "Replace the placeholder app icon in build/ with the new one",
+    "Add the logo to the README and the app's sidebar",
+    "Run a professional trademark search before relying on the mark publicly"
+  ]
+}

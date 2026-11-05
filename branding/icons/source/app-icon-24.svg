@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">PaperForge app icon, drawn for 24 px</title>
+  <rect width="256" height="256" rx="40" fill="#15181C"/>
+  <path fill="#F5F2EC" d="M32 10.67 L123.58 10.67 L166.25 53.33 L74.67 53.33 L74.67 202.67 L32 160 Z M224 245.33 L132.42 245.33 L89.75 202.67 L181.33 202.67 L181.33 53.33 L224 96 Z"/>
+  <path fill="#E39A4D" d="M85.33 64 L149.33 64 L170.67 85.33 L170.67 192 L85.33 192 Z"/>
+</svg>
