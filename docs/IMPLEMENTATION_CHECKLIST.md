@@ -22,7 +22,7 @@
 - [ ] A physical drag from Explorer. The drop path is tested with real File objects and a synthetic drop event.
 - [ ] Hot reload in dev mode. Start-up in dev mode was checked.
 - [ ] Very large documents (thousands of pages, hundreds of MB)
-- [ ] Running the NSIS installer. The unpacked app it installs is tested.
+- [ ] The NSIS setup wizard. Silent install, uninstall and reinstall were run by hand on Windows 11, and the installed app passes `npm run test:packaged`.
 
 ## Not implemented
 
