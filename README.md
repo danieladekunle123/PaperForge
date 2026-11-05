@@ -5,6 +5,8 @@
   </picture>
 </h1>
 
+**[Download PaperForge for Windows](https://github.com/danieladekunle123/PaperForge/releases/latest)** (free, 64-bit, installer or portable)
+
 A desktop PDF toolkit for Windows that works entirely on your computer. There are no accounts, subscriptions, ads, analytics or uploads, and it makes no network requests while you work.
 
 Its main feature is **Document Assembly**: drop in PDFs and images, see every page as a thumbnail, pick the pages you want from any file, arrange them, and export one new PDF. Your original files are never changed.
@@ -56,7 +58,7 @@ Light theme:
 
 ## Install
 
-Download a build from the project's Releases page if one is published, or build it yourself as described below.
+Download a build from the [Releases page](https://github.com/danieladekunle123/PaperForge/releases/latest), or build it yourself as described below.
 
 - `PaperForge-Setup-<version>.exe` installs per user and does not need administrator rights.
 - `PaperForge-Portable-<version>.exe` runs without installing.
