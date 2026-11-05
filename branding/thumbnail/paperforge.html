@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- PaperForge project thumbnail: the logo's two sheets frame the real app, which sits where the logo's amber page goes. Render at 1600x900. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PaperForge thumbnail</title>
+<style>
+  :root {
+    --bg: #0f1114; --ember: #e39a4d; --sheet: #f5f2ec; --muted: #a2a9b3; --line: #2c3138;
+    --sans: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif; --mono: "Cascadia Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1600px; height: 900px; overflow: hidden; }
+  body { position: relative; background: var(--bg); color: var(--sheet); font-family: var(--sans); }
+  .glow { position: absolute; inset: 0; background:
+    radial-gradient(760px 620px at 1108px 450px, rgba(227, 154, 77, .34), transparent 72%),
+    radial-gradient(520px 340px at 40px 900px, rgba(227, 154, 77, .10), transparent 70%); }
+
+  .left { position: absolute; left: 84px; top: 76px; width: 560px; }
+  .logo { display: block; width: 440px; height: auto; margin-left: -6px; }
+  h1 { margin-top: 44px; font-size: 104px; font-weight: 700; line-height: 1.03; letter-spacing: -2.5px; }
+  h1 em { display: block; font-style: normal; color: var(--ember); }
+  .sub { margin-top: 26px; font-size: 31px; font-weight: 400; line-height: 1.3; color: #d5d8dc; }
+  .chips { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+  .chip { display: flex; align-items: center; gap: 11px; padding: 12px 16px; border: 2px solid var(--line); background: rgba(21, 24, 28, .85); font-size: 23px; font-weight: 600; }
+  .chip i { width: 11px; height: 11px; background: var(--ember); transform: rotate(45deg); }
+  .url { position: absolute; left: 84px; bottom: 50px; font: 700 20px/1 var(--mono); letter-spacing: 1.5px; color: var(--muted); }
+  .url b { color: var(--sheet); }
+
+  .sheets { position: absolute; inset: 0; }
+  .window { position: absolute; left: 728px; top: 167.5px; width: 760px; height: 565px; filter: drop-shadow(0 0 3px var(--ember)) drop-shadow(0 0 30px rgba(227, 154, 77, .55)); }
+  .window img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: left top;
+    clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%); }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <svg class="sheets" viewBox="0 0 1600 900" aria-hidden="true"><path fill="#f5f2ec" d="M666 105.5 L1435.37 105.5 L1481.37 151.5 L712 151.5 L712 748.5 L666 702.5 Z M1550 794.5 L780.63 794.5 L734.63 748.5 L1504 748.5 L1504 151.5 L1550 197.5 Z"/></svg>
+  <div class="window"><img src="paperforge-app.png" alt=""></div>
+
+  <div class="left">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202 256" class="logo" aria-label="PaperForge">
+  <path fill="#F5F2EC" d="M16 16 L104.2 16 L146.2 58 L58 58 L58 198 L16 156 Z M208 240 L119.8 240 L77.8 198 L166 198 L166 58 L208 100 Z"/>
+  <path fill="#E39A4D" d="M72 72 L132 72 L152 92 L152 184 L72 184 Z"/>
+  <path fill="#F5F2EC" fill-rule="evenodd" d="M256 192 L256 64 L298.06 64 A38.4 38.4 0 0 1 298.06 140.8 L277.94 140.8 L277.94 192 Z M277.94 83.2 L298.06 83.2 A19.2 19.2 0 0 1 298.06 121.6 L277.94 121.6 Z M439.77 100.57 L439.77 192 L419.66 192 L419.66 185.12 A47.54 47.54 0 1 1 419.66 107.45 L419.66 100.57 Z M392.23 117.94 A27.43 28.34 0 1 0 392.23 174.63 A27.43 28.34 0 1 0 392.23 117.94 Z M455.31 100.57 L475.43 100.57 L475.43 107.45 A47.54 47.54 0 1 1 475.43 185.12 L475.43 237.71 L455.31 237.71 Z M502.86 117.94 A27.43 28.34 0 1 0 502.86 174.63 A27.43 28.34 0 1 0 502.86 117.94 Z M631.6 185.24 A47.54 47.54 0 1 1 651 155.43 L578.38 155.43 A27.43 28.34 0 0 0 617.51 171.15 Z M577.84 138.97 A27.43 28.34 0 0 1 630.84 138.97 Z M662.86 192 L662.86 100.57 L682.97 100.57 L682.97 107.45 A47.54 47.54 0 0 1 723.2 100.5 L723.2 121.22 A27.43 28.34 0 0 0 682.97 146.29 L682.97 192 Z M735.09 192 L735.09 64 L800.91 64 L819.2 82.29 L757.03 82.29 L757.03 120.69 L786.29 120.69 L804.57 138.97 L757.03 138.97 L757.03 192 Z M859.43 98.74 A47.54 47.54 0 1 1 859.43 193.83 A47.54 47.54 0 1 1 859.43 98.74 Z M859.43 117.94 A27.43 28.34 0 1 0 859.43 174.63 A27.43 28.34 0 1 0 859.43 117.94 Z M917.94 192 L917.94 100.57 L938.06 100.57 L938.06 107.45 A47.54 47.54 0 0 1 978.29 100.5 L978.29 121.22 A27.43 28.34 0 0 0 938.06 146.29 L938.06 192 Z M1079.77 100.57 L1079.77 197.49 A40.23 40.23 0 0 1 1039.54 237.71 L1015.77 237.71 L995.66 217.6 L1039.54 217.6 A20.11 20.11 0 0 0 1059.66 197.49 L1059.66 185.12 A47.54 47.54 0 1 1 1059.66 107.45 L1059.66 100.57 Z M1032.23 117.94 A27.43 28.34 0 1 0 1032.23 174.63 A27.43 28.34 0 1 0 1032.23 117.94 Z M1165.54 185.24 A47.54 47.54 0 1 1 1184.94 155.43 L1112.32 155.43 A27.43 28.34 0 0 0 1151.45 171.15 Z M1111.79 138.97 A27.43 28.34 0 0 1 1164.79 138.97 Z"/>
+</svg>
+    <h1>Any pages.<br>Any file.<em>One PDF.</em></h1>
+    <p class="sub">A free PDF toolkit for Windows. Nothing leaves your computer.</p>
+    <div class="chips">
+      <div class="chip"><i></i>Open source</div>
+      <div class="chip"><i></i>Works offline</div>
+    </div>
+  </div>
+  <div class="url">GITHUB.COM/DANIELADEKUNLE123/<b>PAPERFORGE</b></div>
+</body>
+</html>
